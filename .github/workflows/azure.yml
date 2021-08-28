@@ -1,0 +1,10 @@
+Module main()
+ Declare Real mileage
+ Call getMileage()
+ Display "you've driven a total of ", mileage, "miles."
+End Module
+
+Module getMileage()
+ Display "Enter your vehicles mileage"
+ Input mileage
+End module
